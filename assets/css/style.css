@@ -6,18 +6,18 @@
 }
 ul,li{
     list-style: none;
-    display: inline;
+    
 }
+/*---------------------------------Header top---------------------------*/
+
 .headertop{
     background-color: black;
+
 }
-.header{
-    height: 80px;
-    border-bottom: 1px solid rgb(221, 221, 221);
-    
-    
+.headertop ul,li{
+    display: inline;
 }
-.headertop .header_topmenu{
+.headertop .header-topmenu{
     color: rgb(82, 82, 82);
     line-height: 1.2;
     font-size: 14px;
@@ -30,8 +30,16 @@ ul,li{
 
 .headertop .fa-solid{
     padding-left: 30px;
-}
 
+}
+/*---------------------------------Header---------------------------*/
+
+.header{
+    height: 80px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    
+}
+/*------------------------Header logo----------------------*/
 .header .menulogo{
     height: 40px;
     width: 200px;
@@ -40,7 +48,9 @@ ul,li{
     border: solid 2px black;
     margin-top: 20px;
     margin-left: 11px;
+
 }
+/*-------------------------left menu---------------------------*/
 .header .content{
     font-family: 'Montserrat', sans-serif;
     line-height: 0.75;
@@ -50,7 +60,11 @@ ul,li{
     line-height: 0.75;
     text-transform: uppercase;
     letter-spacing: 15px;
+
 }
+
+/*--------------------------middle menu---------------------------*/
+
 .header .list_items{
     padding-top: 34px;
     padding-left: 56px;
@@ -59,7 +73,11 @@ ul,li{
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
+
 }
+
+/*-------------------------right topmenu---------------------------*/
+
 .header .cart{
     padding-top: 29px;
     padding-left: 30px;
@@ -67,24 +85,22 @@ ul,li{
     font-family: "Pe";
     color: rgb(0, 0, 0);
     line-height: 0.733;
+
 }
 
 /*---------------------------------banner---------------------------*/
 .banner{
     padding-top: 30px;
+    
 }
 
-/*---------------------------------ads1---------------------------*/
-.banner .ads_01{
+/*--------------------------ads1---------------------------*/
+.banner .ads-01{
     position: relative;
-}
 
-.banner .content_ads01{
-    position: absolute;
 }
-
-/*---------------------------------text ads1---------------------------*/
-.banner .text_ad01{
+/*--------------------------text ads1---------------------------*/
+.banner .text-ad01{
     position: absolute;
     font-size: 30px;
     font-family: 'Pacifico', cursive;
@@ -94,10 +110,11 @@ ul,li{
     font-weight: bold;
     left: 340px;
     top: 320px;
+
 }
 
 
-.banner .but_ad01{
+.banner .but-ad01{
     position: absolute;
     background-color: rgb(130, 98, 181);
     font-family: 'Montserrat', sans-serif;
@@ -107,19 +124,21 @@ ul,li{
     left: 550px;
     top: 367px;
     padding: 14px 17px 14px 17px;
+
 }
 
-/*-------------------------------ads2---------------------------------*/
-.banner .ads_02{
+/*---------------------------ads2---------------------------------*/
+.banner .ads-02{
     padding-left: 30px;
     position: relative;
+
 }
 
 
-/*---------------------------------text ads2---------------------------*/
+/*---------------------------text ads2---------------------------*/
 
 
-.banner .text1_ad02{
+.banner .text1-ad02{
     position: absolute;
     text-transform: uppercase;
     line-height: 1.2;
@@ -129,10 +148,10 @@ ul,li{
     font-size: 16px;
     left: 80px;
     top: 88px;
+
 }
 
-.banner .text2_ad02{
-
+.banner .text2-ad02{
     position: absolute;
     text-transform: uppercase;
     line-height: 1.2;
@@ -143,12 +162,360 @@ ul,li{
     font-size: 20px;
     left: 80px;
     top: 113px;
+
 }
 
 
-/*-------------------------------ads3---------------------------------*/
-.banner .content_ads03{
+/*----------------------------text ads3---------------------------------*/
+.banner .content-ads03{
     padding-top: 30px;
+
+}
+
+.banner .text1-ad03{
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(97, 97, 97);
+    letter-spacing: 3.5px;
+    font-size: 16px;
+    left: 80px;
+    top: 353px;
+
+}
+
+.banner .text2-ad03{
+    position: absolute;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight:1000;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    left: 80px;
+    top: 375px;
+
+}
+
+.banner .but-ad03{
+    position: absolute;
+    background-color: rgb(130, 98, 181);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    left: 80px;
+    top: 409px;
+    padding: 14px 17px 14px 17px;
+
+}
+
+/*--------------------------------Product------------------------------------*/
+
+/*------------------------Title---------------------------*/
+.product .title{
+    padding-top: 80px;
+    padding-left: 175px;
+    
+}
+.product .text-title1{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(130, 98, 181);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+
+}
+
+.product .text-title2{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+
+}
+
+.product .line{
+    border-bottom: 1px solid rgb(130, 98, 181);
+    padding-top: 6px;
+    width: 50px;
+}
+/*------------------------Row 1----------------------------*/
+.product .row1{
+    padding-top: 50px;
+    position: relative;
+
 }
 
 
+/*--------------Row 1 product 1-------------*/
+.product .but-row1-1{
+    position: absolute;
+    left:200px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+.but-row1-1:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181);
+
+}
+
+.product .row1 ul{
+    padding-top: 20px;
+    display:block;
+
+}
+
+.product .product-text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.857;
+
+}
+
+/*---------------Row 1 product 2--------------*/
+
+.product .but-row1-2{
+    position: absolute;
+    left:493px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row1-2:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-1-2{
+    padding-left: 30px;
+
+}
+
+/*---------------Row 1 product 3--------------*/
+
+.product .but-row1-3{
+    position: absolute;
+    left:783px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row1-3:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-1-3{
+    padding-left: 30px;
+
+}
+
+/*---------------Row 1 product 4--------------*/
+
+.product .but-row1-4{
+    position: absolute;
+    left:1075px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row1-4:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-1-4{
+    padding-left: 30px;
+
+}
+
+
+/*------------------------Row 2----------------------------*/
+.product .row2{
+    padding-top: 40px;
+    position: relative;
+
+}
+
+/*------------------------Row 2 product 1----------------------------*/
+
+.product .but-row2-1{
+    position: absolute;
+    left:200px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row2-1:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+/*------------------------Row 2 product 2----------------------------*/
+
+.product .but-row2-2{
+    position: absolute;
+    left:493px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row2-2:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-2-2{
+    padding-left: 30px;
+
+}
+
+/*------------------------Row 2 product 3----------------------------*/
+
+.product .but-row2-3{
+    position: absolute;
+    left:783px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+
+.but-row2-3:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-2-3{
+    padding-left: 30px;
+
+}
+
+/*------------------------Row 2 product 4----------------------------*/
+
+.product .but-row2-4{
+    position: absolute;
+    left:1075px;
+    top:309px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 2.167;
+    background-color: rgb(255, 255, 255);
+    width: 118px;
+    height: 40px;
+
+}
+.but-row2-4:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 98, 181); 
+
+}
+
+.product .content-row-2-4{
+    padding-left: 30px;
+
+}
+
+/*------------------------Product Rating----------------------------*/
+
+.product .rating{
+    font-size: 10px;
+    color: rgb(199, 198, 198);
+
+}
+
+.product .checker{
+    color: rgb(247, 226, 39);
+}
+/*------------------------Product Text----------------------------*/
+
+.product .product-text{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.857;
+
+}
+
+/*------------------------Product Price----------------------------*/
+
+.product .price{
+    text-decoration-line: line-through;
+    color: rgb(199, 198, 198);
+}
+
+.product .discour{
+    color:rgb(100, 72, 145);
+    font-weight: bold;
+}
