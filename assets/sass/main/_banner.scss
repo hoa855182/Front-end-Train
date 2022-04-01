@@ -1,0 +1,104 @@
+
+.banner {
+    padding-top: 30px;
+    &-ads{
+        &-01{
+            position: relative;
+            .text-ad01 {
+                position: absolute;
+                font-size: 30px;
+                font-family: 'Pacifico', cursive;
+                color: $color-3;
+                line-height: 1.2;
+                text-align: left;
+                font-weight: bold;
+                left: 340px;
+                top: 320px;
+            
+            }
+            .but-ad01 {
+                position: absolute;
+                background-color: $color-2;
+                font-family: $font-family-1;
+                color: $back-color-1;
+                line-height: 1.2;
+                text-align: center;
+                left: 550px;
+                top: 367px;
+                padding: 14px 17px 14px 17px;
+            }
+        }
+        &-02{
+            padding-left: 30px;
+            position: relative;
+            &-content-top {
+                .text1-ad02 {
+                    position: absolute;
+                    text-transform: $text-tran-1;
+                    line-height: 1.2;
+                    font-family: $font-family-1;
+                    color: $color-1;
+                    letter-spacing: 3.5px;
+                    font-size: 16px;
+                    left: 80px;
+                    top: 88px;
+                    font-weight: 300;
+                }
+                .text2-ad02 {
+                    position: absolute;
+                    text-transform: $text-tran-1;
+                    line-height: 1.2;
+                    padding-bottom: 10px;
+                    font-family: $font-family-1;
+                    font-weight:1000;
+                    color: $color-3;
+                    font-size: 20px;
+                    left: 80px;
+                    top: 113px;
+                
+                }
+            }
+            &-content-bottom {
+                padding-top: 30px;
+                .text1-ad03 {
+                    position: absolute;
+                    text-transform: $text-tran-1;
+                    line-height: 1.2;
+                    font-family: $font-family-1;
+                    color: $color-1;
+                    letter-spacing: 3.5px;
+                    font-size: 16px;
+                    left: 80px;
+                    top: 353px;
+                    font-weight: 300;
+                
+                }
+                .text2-ad03 {
+                    position: absolute;
+                    text-transform: $text-tran-1;
+                    line-height: 1.2;
+                    padding-bottom: 10px;
+                    font-family: $font-family-1;
+                    font-weight:1000;
+                    color: $color-3;
+                    font-size: 20px;
+                    left: 80px;
+                    top: 375px;
+                
+                }
+                .but-ad03 {
+                    position: absolute;
+                    background-color: $color-2;
+                    font-family: $font-family-1;
+                    color: $back-color-1;
+                    line-height: 1.2;
+                    text-align: center;
+                    left: 80px;
+                    top: 409px;
+                    padding: 14px 17px 14px 17px;
+                
+                }
+            }
+        }
+    }
+}
