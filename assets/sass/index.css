@@ -693,7 +693,16 @@ ul, li {
   padding-right: 0;
 }
 
-.footer-content-1-title {
+.footer-content-row {
+  padding-top: 0;
+}
+
+.footer-content-row-col {
+  width: 30%;
+  margin-right: 130px;
+}
+
+.footer-content-row-col-1-title {
   font-size: 16px;
   font-family: "Montserrat";
   color: white;
@@ -702,12 +711,12 @@ ul, li {
   font-weight: 300;
 }
 
-.footer-content-1 .line {
+.footer-content-row-col-1 .line {
   border-bottom: 1px solid #393939;
   width: 260px;
 }
 
-.footer-content-1-descript {
+.footer-content-row-col-1-descript {
   padding-top: 4px;
   font-size: 14px;
   font-family: "OpenSans";
@@ -717,7 +726,7 @@ ul, li {
   width: 100%;
 }
 
-.footer-content-1-list {
+.footer-content-row-col-1-list {
   padding-top: 40px;
   font-size: 16px;
   color: #828282;
@@ -725,15 +734,11 @@ ul, li {
   line-height: 1.2;
 }
 
-.footer-content-1-list .list-items {
+.footer-content-row-col-1-list .list-items {
   padding-left: 20px;
 }
 
-.footer-content-2 {
-  padding-left: 100px;
-}
-
-.footer-content-2-title {
+.footer-content-row-col-3-title {
   font-size: 16px;
   font-family: "Montserrat";
   color: white;
@@ -742,64 +747,12 @@ ul, li {
   font-weight: 300;
 }
 
-.footer-content-2 .line {
+.footer-content-row-col-3 .line {
   border-bottom: 1px solid #393939;
   width: 260px;
 }
 
-.footer-content-2-list-left .list-items {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: #888888;
-  line-height: 2.143;
-  text-align: left;
-}
-
-.footer-content-2-list-left .list-items:first-child {
-  padding-top: 0;
-}
-
-.footer-content-2-list-left .list-items:nth-child(4) {
-  color: white;
-  -webkit-text-decoration: underline white;
-          text-decoration: underline white;
-}
-
-.footer-content-2-list-right {
-  padding-left: 0;
-  padding-right: 0;
-  font-size: 14px;
-  font-family: "OpenSans";
-  color: #888888;
-  line-height: 2.143;
-  text-align: left;
-}
-
-.footer-content-2-list-right:first-child {
-  padding-top: 0;
-}
-
-.footer-content-3 {
-  padding-left: 100px;
-}
-
-.footer-content-3-title {
-  font-size: 16px;
-  font-family: "Montserrat";
-  color: white;
-  line-height: 1.35;
-  text-align: left;
-  font-weight: 300;
-}
-
-.footer-content-3 .line {
-  border-bottom: 1px solid #393939;
-  width: 260px;
-}
-
-.footer-content-3-list-left .list-items {
+.footer-content-row-col-3-list-left .list-items {
   padding: 10px 20px 0 0;
   font-size: 14px;
   font-family: "Montserrat";
@@ -807,16 +760,17 @@ ul, li {
   line-height: 1.2;
 }
 
-.footer-content-3-list-left .list-items:first-child {
+.footer-content-row-col-3-list-left .list-items:first-child {
   padding-top: 8px;
   padding-bottom: 49px;
 }
 
-.footer-content-3-list-left .list-items:nth-child(2) {
+.footer-content-row-col-3-list-left .list-items:nth-child(2) {
   padding-bottom: 20px;
 }
 
-.footer-content-3-list-right .list-items {
+.footer-content-row-col-3-list-right .list-items {
+  padding-right: 60px;
   padding-top: 10px;
   font-size: 14px;
   font-family: "OpenSans";
@@ -824,7 +778,64 @@ ul, li {
   line-height: 2.4;
 }
 
-.footer-content-3-list-right .list-items:first-child {
+.footer-content-row-col-3-list-right .list-items:first-child {
+  padding-top: 0;
+}
+
+.footer-content-row-col-3-list-right a {
+  color: #888888;
+}
+
+.footer-content-row-colmid {
+  width: 40%;
+  margin-right: 130px;
+}
+
+.footer-content-row-colmid-2-title {
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: white;
+  line-height: 1.35;
+  text-align: left;
+  font-weight: 300;
+}
+
+.footer-content-row-colmid-2 .line {
+  border-bottom: 1px solid #393939;
+  width: 360px;
+}
+
+.footer-content-row-colmid-2-list-left .list-items {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #888888;
+  line-height: 2.143;
+  text-align: left;
+}
+
+.footer-content-row-colmid-2-list-left .list-items:first-child {
+  padding-top: 0;
+}
+
+.footer-content-row-colmid-2-list-left .list-items:nth-child(4) {
+  color: white;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.footer-content-row-colmid-2-list-right {
+  padding-left: 0;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #888888;
+  line-height: 2.143;
+  text-align: left;
+}
+
+.footer-content-row-colmid-2-list-right:first-child {
   padding-top: 0;
 }
 
