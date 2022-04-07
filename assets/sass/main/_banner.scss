@@ -1,34 +1,45 @@
 
 .banner {
-    padding-top: 30px;
+    padding-top: 35px;
+    padding-left: 10px;
+    .container {
+        padding: 0 0;
+    }
     &-ads{
+        display: flex;
+        justify-content: center;
         &-01{
+            overflow: hidden;
             position: relative;
+            
             .text-ad01 {
+                width: 100%;
                 position: absolute;
                 font-size: 30px;
-                font-family: 'Pacifico', cursive;
+                font-family: $font-family-3;
                 color: $color-3;
                 line-height: 1.2;
                 text-align: left;
                 font-weight: bold;
-                left: 340px;
-                top: 320px;
+                left: 330px;
+                top: 319px;
             
             }
-            .but-ad01 {
+            .btn-ad01 {
                 position: absolute;
                 background-color: $color-2;
                 font-family: $font-family-1;
                 color: $back-color-1;
                 line-height: 1.2;
                 text-align: center;
-                left: 550px;
-                top: 367px;
-                padding: 14px 17px 14px 17px;
+                
+                left: 544px;
+                top: 370px;
+                padding: 12px 13px 10px 13px;
             }
         }
         &-02{
+            overflow: hidden;
             padding-left: 30px;
             position: relative;
             &-content-top {
@@ -40,8 +51,8 @@
                     color: $color-1;
                     letter-spacing: 3.5px;
                     font-size: 16px;
-                    left: 80px;
-                    top: 88px;
+                    left: 81px;
+                    top: 86px;
                     font-weight: 300;
                 }
                 .text2-ad02 {
@@ -54,7 +65,7 @@
                     color: $color-3;
                     font-size: 20px;
                     left: 80px;
-                    top: 113px;
+                    top: 104px;
                 
                 }
             }
@@ -68,8 +79,8 @@
                     color: $color-1;
                     letter-spacing: 3.5px;
                     font-size: 16px;
-                    left: 80px;
-                    top: 353px;
+                    left: 64px;
+                    top: 348px;
                     font-weight: 300;
                 
                 }
@@ -82,20 +93,21 @@
                     font-weight:1000;
                     color: $color-3;
                     font-size: 20px;
-                    left: 80px;
-                    top: 375px;
+                    left: 65px;
+                    top: 369px;
                 
                 }
-                .but-ad03 {
+                .btn-ad03 {
                     position: absolute;
                     background-color: $color-2;
                     font-family: $font-family-1;
                     color: $back-color-1;
                     line-height: 1.2;
                     text-align: center;
-                    left: 80px;
+                    
+                    left: 70px;
                     top: 409px;
-                    padding: 14px 17px 14px 17px;
+                    padding: 12px 13px 10px 13px;
                 
                 }
             }
