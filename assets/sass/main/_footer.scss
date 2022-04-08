@@ -3,10 +3,10 @@
 
 
 .footer {
-    
+    height: 100%;
     padding-top: 59px;
-    display: none;
     background-color: $color-3;
+   
     .container{
         padding-left: 0;
         padding-right: 0;
@@ -15,7 +15,8 @@
     &-content {
         padding-left: 1px;
         &-row{
-            width: 100%;
+            display: flex;
+            justify-content: space-between;
             padding-top: 0;
             &-col {
                 width: 30%;
