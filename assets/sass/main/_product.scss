@@ -3,9 +3,8 @@
 /*------------------------Title---------------------------*/
 
 .product {
-
+    
     &-title {
-        
         padding-top: 74px;
         .container {
             padding-left: 0;
@@ -14,7 +13,7 @@
                 .text-title1 {
                     font-size: 12px;
                     font-family: $font-family-1;
-                    color: $color-2;
+                    color: $light-violet;
                     font-weight: bold;
                     text-transform: $text-tran-1;
                     line-height: 1.2;
@@ -25,7 +24,7 @@
                 .text-title2 {
                     font-size: 24px;
                     font-family: $font-family-1;
-                    color: $color-3;
+                    color: $black;
                     font-weight: bold;
                     text-transform: $text-tran-1;
                     line-height: 1.2;
@@ -34,7 +33,7 @@
                 
                 }
                 .line {
-                    border-bottom: 1px solid $color-2;
+                    border-bottom: 1px solid $light-violet;
                     padding-top: 6px;
                     width: 50px;
                 }
@@ -43,27 +42,31 @@
     }
     &-row {
         padding-top: 34px;
-        padding-right: 28px;
+        .container{
+            padding: 0;
+        }
+        width: 100%;
         &-content {
-            width: 105%;
             display: flex;
             flex-direction: row;
-            justify-content: center;
             flex-wrap: wrap;
             &-detail {
-                width: 25%;
+                &:nth-child(4n) {
+                    margin-right: 0;
+                }
+                width: calc(((100% + 30px) / 4) - 30px);
+                margin: 0 30px 32px 0;
                 position: relative;
-                padding-bottom: 32px;
                 .btn-row {
                     position: absolute;
                     left:9px;
                     top:277px;
                     font-size: 12px;
                     font-family: $font-family-1;
-                    color: $color-product;
+                    color: $light-dark;
                     text-transform: $text-tran-1;
                     line-height: 2.167;
-                    background-color: $back-color-1;
+                    background-color: $white;
                     width: 118px;
                     height: 40px;
                     font-weight: 300;
@@ -71,8 +74,8 @@
                 }
 
                 .btn-row:active {
-                    background-color: $back-color-1;
-                    color: $color-2;
+                    background-color: $white;
+                    color: $light-violet;
                 
                 }
                 ul {
@@ -82,7 +85,7 @@
                     .product-text {
                         font-size: 14px;
                         font-family: $font-family-1;
-                        color: $color-3;
+                        color: $black;
                         line-height: 1.857;
                         font-weight: 300;
                         padding-left: 2px;
@@ -126,18 +129,18 @@
                     top:277px;
                     font-size: 12px;
                     font-family: $font-family-1;
-                    color: $color-product;
+                    color: $light-dark;
                     text-transform: $text-tran-1;
                     line-height: 2.167;
-                    background-color: $back-color-1;
+                    background-color: $white;
                     width: 118px;
                     height: 40px;
                     font-weight: 300;
                 
                 }
                 .btn-row-2:active {
-                    background-color: $back-color-1;
-                    color: $color-2; 
+                    background-color: $white;
+                    color: $light-violet; 
                 
                 }
 
@@ -148,7 +151,7 @@
                     .product-text {
                         font-size: 14px;
                         font-family: $font-family-1;
-                        color: $color-3;
+                        color: $black;
                         line-height: 1.857;
                         font-weight: 300;
                         padding-left: 2px;
@@ -198,10 +201,10 @@
                     top:279px;
                     font-size: 12px;
                     font-family: $font-family-1;
-                    color: $color-product;
+                    color: $light-dark;
                     text-transform: $text-tran-1;
                     line-height: 2.167;
-                    background-color: $back-color-1;
+                    background-color: $white;
                     width: 118px;
                     height: 40px;
                     font-weight: 300;
@@ -209,8 +212,8 @@
                 }
 
                 .but-row-1:active {
-                    background-color: $back-color-1;
-                    color: $color-2;
+                    background-color: $white;
+                    color: $light-violet;
                 
                 }
                 ul {
@@ -220,7 +223,7 @@
                     .product-text {
                         font-size: 14px;
                         font-family: $font-family-1;
-                        color: $color-3;
+                        color: $black;
                         line-height: 1.857;
                         font-weight: 300;
                         padding-left: 2px;
@@ -264,10 +267,10 @@
                     top:279px;
                     font-size: 12px;
                     font-family: $font-family-1;
-                    color: $color-product;
+                    color: $light-dark;
                     text-transform: $text-tran-1;
                     line-height: 2.167;
-                    background-color: $back-color-1;
+                    background-color: $white;
                     width: 118px;
                     height: 40px;
                     font-weight: 300;
@@ -275,8 +278,8 @@
                 }
 
                 .btn-row-2:active {
-                    background-color: $back-color-1;
-                    color: $color-2; 
+                    background-color: $white;
+                    color: $light-violet; 
                 
                 }
 
@@ -287,7 +290,7 @@
                     .product-text {
                         font-size: 14px;
                         font-family: $font-family-1;
-                        color: $color-3;
+                        color: $black;
                         line-height: 1.857;
                         font-weight: 300;
                         padding-left: 2px;

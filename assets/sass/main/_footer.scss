@@ -5,7 +5,7 @@
 .footer {
     height: 100%;
     padding-top: 59px;
-    background-color: $color-3;
+    background-color: $black;
    
     .container{
         padding-left: 0;
@@ -26,7 +26,7 @@
                     &-title {
                         font-size: 16px;
                         font-family: $font-family-1;
-                        color: $back-color-1;
+                        color: $white;
                         line-height: 1.35;
                         text-align: left;
                         font-weight: 300;
@@ -44,7 +44,7 @@
                         padding-left: 2px;
                         font-size: 14px;
                         font-family: $font-family-2;
-                        color: $color-4;
+                        color: $light-gray;
                         line-height: 1.571;
                         text-align: left;
                         width: 100%;
@@ -52,6 +52,7 @@
                     }
         
                     &-list {
+                        display: flex;
                         padding-top: 31px;
                         font-size: 16px;
                         color: rgb(130, 130, 130);
@@ -69,53 +70,67 @@
                     &-title {
                         font-size: 16px;
                         font-family: $font-family-1;
-                        color: $back-color-1;
+                        color: $white;
                         line-height: 1.35;
                         text-align: left;
                         font-weight: 300;
                     }
         
                     .line {
+                        padding-top: 10px;
                         border-bottom: 1px solid rgb(57, 57, 57);
                         width: 260px;
                     
                     }
                     &-list {
-                        padding-top: 13px;
-                        &-left {
-                            .list-items {
-                                &:first-child{
-                                    padding-top: 8px;
-                                    padding-bottom: 40px;
-                                }
-                                &:nth-child(2){
-                                    padding-bottom: 6px;
-                                }
+                        padding-top: 3px;
+                        .list-items {
+                            font-size: 15px;
+                            font-family: $font-family-1;
+                            line-height: 2.2;
+                            color: $light-gray;
+                            i {
+                                margin-right: 11.5px;
+                                line-height: 34px;
+                            }
+                            a{
+                                color: $light-gray;
+                            }
+                        }
+                        // &-left {
+                        //     .list-items {
+                        //         &:first-child{
+                        //             padding-top: 8px;
+                        //             padding-bottom: 40px;
+                        //         }
+                        //         &:nth-child(2){
+                        //             padding-bottom: 6px;
+                        //         }
         
-                                padding: 10px 15px 0 0;
-                                font-size: 15px;
-                                font-family: $font-family-1;
-                                color: $color-4;
-                                line-height: 1.2;
-                            }
-                        }
-                        &-right {
-                            .list-items {
-                                &:first-child{
-                                    padding-top: 0;
-                                }
-                                padding-right: 65px;
-                                padding-top: 1px;
-                                font-size: 14px;
-                                font-family: $font-family-2;
-                                color: $color-4;
-                                line-height: 2.4;
-                            }
+                        //         padding: 10px 15px 0 0;
+                        //         font-size: 15px;
+                        //         font-family: $font-family-1;
+                        //         color: $light-gray;
+                        //         line-height: 1.2;
+                        //     }
+                        // }
+                        // &-right {
+                        //     .list-items {
+                        //         &:first-child{
+                        //             padding-top: 0;
+                        //         }
+                        //         padding-right: 65px;
+                        //         padding-top: 1px;
+                        //         font-size: 14px;
+                        //         font-family: $font-family-2;
+                        //         color: $light-gray;
+                        //         line-height: 2.4;
+                        //     }
 
-                            a {
-                                color: $color-4;
-                            }
-                        }
+                        //     a {
+                        //         color: $light-gray;
+                        //     }
+                        // }
                     }
                 }
 
@@ -129,40 +144,51 @@
                     &-title {
                         font-size: 16px;
                         font-family: $font-family-1;
-                        color: $back-color-1;
+                        color: $white;
                         line-height: 1.35;
                         text-align: left;
                         font-weight: 300;
                     }
         
                     .line {
+                        padding-top: 10px;
                         border-bottom: 1px solid rgb(57, 57, 57);
                         width: 360px;
                     
                     }
         
                     &-list {
-                        padding-top: 12px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: left;
+                        padding-top: 2px;
                         &-left {
                             .list-items{
+                                a {
+                                    color: $light-gray;
+                                }
                                 &:first-child{
                                     padding-top: 0;
                                 }
                                 &:nth-child(4){
-                                    color: $back-color-1;
-                                    text-decoration: underline $back-color-1;
+                                    a{
+                                        color: $white;
+                                    }
+                                    text-decoration: underline $white;
                                 }
                                 
                                 padding-left: 0;
                                 padding-right: 0;
                                 font-size: 14px;
                                 font-family: $font-family-2;
-                                color: $color-4;
                                 line-height: 2.143;
                                 text-align: left;
                             }
                         }
                         &-right {
+                            a {
+                                color: $light-gray;
+                            }
                             &:first-child{
                                 padding-top: 0;
                             }
@@ -171,7 +197,6 @@
                             padding-right: 48px;
                             font-size: 14px;
                             font-family: $font-family-2;
-                            color: $color-4;
                             line-height: 2.143;
                             text-align: left;
                         }
@@ -186,18 +211,20 @@
     
     &-copyright {
         .border-line {
-            
-            padding-top: 27px;
+            padding-top: 23px;
             border-bottom: 1px solid rgb(57, 57, 57);
+
         }
         &-content {
+            display: flex;
+            justify-content: space-between;
             width: 100%;
             padding-left: 3px;
             padding-top: 4px;
             &-rules {
                 font-size: 14px;
                 font-family: $font-family-2;
-                color: $color-4;
+                color: $light-gray;
                 line-height: 1.8;
 
                 .icon-1 {
@@ -211,7 +238,7 @@
 
                 .text {
                     font-weight: bold;
-                    color: $back-color-1;
+                    color: $white;
                 
                 }
             }
@@ -219,9 +246,10 @@
                 padding-right: 0;
                 font-size: 20px;
                 font-family: $font-family-1;
-                color: $color-4;
+                color: $light-gray;
                 line-height: 1.1;
                 .list {
+                    display: flex;
                     .list-items{
                         padding-left: 10px;
 

@@ -1,12 +1,12 @@
 /*---------------------------------Color---------------------------*/
 
-$color-1: rgb(82, 82, 82);
-$color-2: rgb(130, 98, 181);
-$color-3: rgb(0, 0, 0);
-$color-4: rgb(136, 136, 136);
-$line-color-1: rgb(211,211,211);
-$color-product:rgb(66, 66, 66);
-$back-color-1:rgb(255, 255, 255);
+$dark-gray: rgb(82, 82, 82);
+$light-violet: rgb(130, 98, 181);
+$black: rgb(0, 0, 0);
+$light-gray: rgb(136, 136, 136);
+$dark-white: rgb(211,211,211);
+$light-dark:rgb(66, 66, 66);
+$white:rgb(255, 255, 255);
 
 /*---------------------------------Text Font---------------------------*/
 
@@ -67,6 +67,7 @@ ul,li {
     list-style: none;
     
 }
+
 .cover {
     position: fixed;
     width: 100vw;
@@ -82,14 +83,15 @@ ul,li {
 
 .header-top {
     width: 100%;
-    background-color:$color-3;
+    background-color:$black;
     & ul,li{
         display: inline;
     }
     
     &-menu{
-        
-        color: $color-1;
+        display: flex;
+        justify-content: space-between;
+        color: $dark-gray;
         line-height: 1.2;
         font-size: 15px;
         padding: 12px 0 15px 0;
@@ -98,6 +100,9 @@ ul,li {
         .topmenu_right {
             font-size: 14px;
             padding-right: 13px;
+            a {
+                color: $light-gray;
+            }
         }
 
     }
@@ -121,7 +126,7 @@ ul,li {
             width: 200px;
             padding: 10px 0 0 14px;
             
-            border: solid 2px $color-3;
+            border: solid 2px $black;
             margin-top: 20px;
             margin-left: 17px;
             &_content {
@@ -129,7 +134,7 @@ ul,li {
                 font-family: $font-family-1;
                 line-height: 0.75;
                 font-weight: bold;
-                color: $color-3;
+                color: $black;
                 font-size: 20px;
                 line-height: 0.75;
                 text-transform: $text-tran-1;
@@ -143,10 +148,14 @@ ul,li {
         margin-left: -103px;
         .list-items {
             &:first-child{
-                color: $color-2;
+                a{
+                    color: $light-violet;
+                }
                 padding-left: 0;
             }
-            
+            a {
+                color: $black;
+            }
             padding: 31px 0 0 55px;
             font-size: 14px;
             font-family: $font-family-1;
@@ -157,13 +166,15 @@ ul,li {
         }
     }
     &_cart {
-
+        display: flex;
         padding-top: 20px;
         .cart {
+            a {
+                color: $black;
+            }
             padding-right: 15px;
             padding-left: 14px;
             font-size: 29px;
-            color: $color-3;
             line-height: 0.733;
         }
     }
