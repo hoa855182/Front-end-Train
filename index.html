@@ -9,6 +9,12 @@
 
     <script src="./assets/js/jquery-3.6.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="./assets/sass/index.css">
+
+    <script src="./assets/js/script.js"></script>
+    <!-- less -->
+
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
 
     <link rel="stylesheet" href="./assets/css/slick.css">
     <link rel="stylesheet" href="./assets/css/slick-theme.css">
@@ -26,12 +32,6 @@
     <link rel="stylesheet" href="./assets/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
     <!-- css -->
-    <link rel="stylesheet/less" type="text/css" href="./assets/sass/index.css">
-
-    <script src="./assets/js/script.js"></script>
-    <!-- less -->
-
-    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
     
 </head>
 <div class="cover"></div>
@@ -533,21 +533,10 @@
                                 <p class="footer-content-row-col-3-title">Shop Location</p>
                                 <p class="line"></p>
                                 <div class="footer-content-row-col-3-list">
-                                    <!-- <ul class="footer-content-row-col-3-list-left d-flex flex-column">
-                                        <li class="list-items"><i class="fa-regular fa-map"></i></li>
-                                        <li class="list-items"><i class="fa-solid fa-phone"></i></li>
-                                        <li class="list-items"><i class="fa-regular fa-envelope"></i></li>
-                                    </ul>
-                                    <ul class="footer-content-row-col-3-list-right d-flex flex-column">
-                                        <li class="list-items">500 Hennessy Road<br>Causeway Bay, Hong Kong</li>
-                                        <li class="list-items"><a href="tel:+1 23456789">+1 23456789</a></li>
-                                        <li class="list-items"><a href="mailto:contact@yourdomain.com">contact@yourdomain.com</a></li>
-                                    </ul> -->
                                     <ul>
                                         <li class="list-items">
                                             <i class="fa-regular fa-map"></i>
-                                            <a href="#">500 Hennessy Road</a>
-                                            <a href="#">Causeway Bay, Hong Kong</a>
+                                            <a href="#">500 Hennessy Road<br>Causeway Bay, Hong Kong</a>
                                         </li>
                                         <li class="list-items">
                                             <i class="fa-solid fa-phone"></i>
@@ -598,7 +587,7 @@
             slidesToScroll: 3,
             arrows: false,
             infinite: true,
-            //autoplay: true,
+            autoplay: true,
             autoplaySpeed: 2000,
             dots: true,
             responsive: [

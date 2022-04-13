@@ -207,31 +207,33 @@ ul, li {
   position: relative;
 }
 
-.banner-ads-01 .text-ad01 {
+.banner-ads-01 .descript {
+  position: absolute;
+  bottom: 148px;
+  right: 94px;
+}
+
+.banner-ads-01 .descript .text-ad01 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  position: absolute;
   font-size: 30px;
   font-family: "Pacifico";
   color: black;
   line-height: 1.2;
   text-align: left;
   font-weight: bold;
-  left: 342px;
-  top: 319px;
 }
 
-.banner-ads-01 .btn-ad01 {
-  position: absolute;
+.banner-ads-01 .descript .btn-ad01 {
   background-color: #8262b5;
   font-family: "Montserrat";
   color: white;
   line-height: 1.2;
   text-align: center;
-  left: 550px;
-  top: 366px;
-  padding: 12px 13px 10px 13px;
+  padding: 10px 13px 10px 13px;
+  margin-left: 208px;
+  margin-bottom: 5px;
 }
 
 .banner-ads-02 {
@@ -240,71 +242,69 @@ ul, li {
   position: relative;
 }
 
-.banner-ads-02-content-top .text1-ad02 {
+.banner-ads-02-content-top .descript {
   position: absolute;
+  top: 85px;
+  left: 85px;
+}
+
+.banner-ads-02-content-top .descript .text1-ad02 {
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1;
   font-family: "Montserrat";
   color: #525252;
   letter-spacing: 3.5px;
   font-size: 16px;
-  left: 85px;
-  top: 85px;
   font-weight: 300;
 }
 
-.banner-ads-02-content-top .text2-ad02 {
-  position: absolute;
+.banner-ads-02-content-top .descript .text2-ad02 {
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 0;
   padding-bottom: 10px;
   font-family: "Montserrat";
   font-weight: 1000;
   color: black;
   font-size: 20px;
-  left: 86px;
-  top: 104px;
 }
 
 .banner-ads-02-content-bottom {
   padding-top: 30px;
 }
 
-.banner-ads-02-content-bottom .text1-ad03 {
+.banner-ads-02-content-bottom .descript {
   position: absolute;
+  bottom: 107px;
+  left: 70px;
+}
+
+.banner-ads-02-content-bottom .descript p {
+  margin-bottom: 0;
+}
+
+.banner-ads-02-content-bottom .descript .text1-ad03 {
   text-transform: uppercase;
-  line-height: 1.2;
   font-family: "Montserrat";
   color: #525252;
   letter-spacing: 3.5px;
   font-size: 16px;
-  left: 68px;
-  top: 348px;
   font-weight: 300;
 }
 
-.banner-ads-02-content-bottom .text2-ad03 {
-  position: absolute;
+.banner-ads-02-content-bottom .descript .text2-ad03 {
   text-transform: uppercase;
-  line-height: 1.2;
   padding-bottom: 10px;
   font-family: "Montserrat";
   font-weight: 1000;
   color: black;
   font-size: 20px;
-  left: 68px;
-  top: 369px;
 }
 
-.banner-ads-02-content-bottom .btn-ad03 {
-  position: absolute;
+.banner-ads-02-content-bottom .descript .btn-ad03 {
   background-color: #8262b5;
   font-family: "Montserrat";
   color: white;
-  line-height: 1.2;
   text-align: center;
-  left: 70px;
-  top: 409px;
   padding: 12px 13px 10px 13px;
 }
 
@@ -374,14 +374,18 @@ ul, li {
   position: relative;
 }
 
-.product-row-content-detail:nth-child(4n) {
-  margin-right: 0;
+.product-row-content-detail .img-detail {
+  position: relative;
 }
 
-.product-row-content-detail .btn-row {
+.product-row-content-detail .img-detail img {
+  width: 100%;
+}
+
+.product-row-content-detail .img-detail .btn-row {
   position: absolute;
-  left: 9px;
-  top: 277px;
+  left: 5px;
+  bottom: 5px;
   font-size: 12px;
   font-family: "Montserrat";
   color: #424242;
@@ -393,9 +397,13 @@ ul, li {
   font-weight: 300;
 }
 
-.product-row-content-detail .btn-row:active {
+.product-row-content-detail .img-detail .btn-row:active {
   background-color: white;
   color: #8262b5;
+}
+
+.product-row-content-detail:nth-child(4n) {
+  margin-right: 0;
 }
 
 .product-row-content-detail ul {
@@ -432,211 +440,6 @@ ul, li {
 }
 
 .product-row-content-detail .discour {
-  color: #644891;
-  font-weight: bold;
-}
-
-.product-row-content-2 {
-  position: relative;
-  padding-left: 30px;
-}
-
-.product-row-content-2 .btn-row-2 {
-  position: absolute;
-  left: 40px;
-  top: 277px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  color: #424242;
-  text-transform: uppercase;
-  line-height: 2.167;
-  background-color: white;
-  width: 118px;
-  height: 40px;
-  font-weight: 300;
-}
-
-.product-row-content-2 .btn-row-2:active {
-  background-color: white;
-  color: #8262b5;
-}
-
-.product-row-content-2 ul {
-  padding-top: 11px;
-  display: block;
-}
-
-.product-row-content-2 ul .product-text {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: black;
-  line-height: 1.857;
-  font-weight: 300;
-  padding-left: 2px;
-}
-
-.product-row-content-2 .rating {
-  padding-top: 4px;
-  padding-left: 2px;
-  padding-bottom: 4px;
-  font-size: 10px;
-  color: #c7c6c6;
-}
-
-.product-row-content-2 .checker {
-  color: #f7e227;
-}
-
-.product-row-content-2 .price {
-  padding-left: 2px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #c7c6c6;
-}
-
-.product-row-content-2 .discour {
-  color: #644891;
-  font-weight: bold;
-}
-
-.product-row-2 {
-  padding-top: 29px;
-}
-
-.product-row-2-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.product-row-2-content-1 {
-  position: relative;
-}
-
-.product-row-2-content-1 .btn-row-1 {
-  position: absolute;
-  left: 9px;
-  top: 279px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  color: #424242;
-  text-transform: uppercase;
-  line-height: 2.167;
-  background-color: white;
-  width: 118px;
-  height: 40px;
-  font-weight: 300;
-}
-
-.product-row-2-content-1 .but-row-1:active {
-  background-color: white;
-  color: #8262b5;
-}
-
-.product-row-2-content-1 ul {
-  padding-top: 14px;
-  display: block;
-}
-
-.product-row-2-content-1 ul .product-text {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: black;
-  line-height: 1.857;
-  font-weight: 300;
-  padding-left: 2px;
-}
-
-.product-row-2-content-1 .rating {
-  padding-top: 4px;
-  padding-left: 2px;
-  padding-bottom: 4px;
-  font-size: 10px;
-  color: #c7c6c6;
-}
-
-.product-row-2-content-1 .checker {
-  color: #f7e227;
-}
-
-.product-row-2-content-1 .price {
-  padding-left: 2px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #c7c6c6;
-}
-
-.product-row-2-content-1 .discour {
-  color: #644891;
-  font-weight: bold;
-}
-
-.product-row-2-content-2 {
-  position: relative;
-  padding-left: 30px;
-}
-
-.product-row-2-content-2 .btn-row-2 {
-  position: absolute;
-  left: 40px;
-  top: 279px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  color: #424242;
-  text-transform: uppercase;
-  line-height: 2.167;
-  background-color: white;
-  width: 118px;
-  height: 40px;
-  font-weight: 300;
-}
-
-.product-row-2-content-2 .btn-row-2:active {
-  background-color: white;
-  color: #8262b5;
-}
-
-.product-row-2-content-2 ul {
-  padding-top: 14px;
-  display: block;
-}
-
-.product-row-2-content-2 ul .product-text {
-  font-size: 14px;
-  font-family: "Montserrat";
-  color: black;
-  line-height: 1.857;
-  font-weight: 300;
-  padding-left: 2px;
-}
-
-.product-row-2-content-2 .rating {
-  padding-top: 4px;
-  padding-left: 2px;
-  padding-bottom: 4px;
-  font-size: 10px;
-  color: #c7c6c6;
-}
-
-.product-row-2-content-2 .checker {
-  color: #f7e227;
-}
-
-.product-row-2-content-2 .price {
-  padding-left: 2px;
-  -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
-  color: #c7c6c6;
-}
-
-.product-row-2-content-2 .discour {
   color: #644891;
   font-weight: bold;
 }
@@ -700,7 +503,7 @@ ul, li {
 }
 
 .slider-category {
-  padding-top: 34px;
+  padding-top: 57px;
 }
 
 .slider-category_row {
@@ -762,11 +565,6 @@ ul, li {
 }
 
 .slider-category_row_col .detail .date .date-info {
-  border-width: 1px;
-  border-color: #fefefe;
-  border-style: solid;
-  width: 48px;
-  height: 48px;
   font-size: 14px;
   font-family: "Montserrat";
   color: white;
@@ -778,6 +576,16 @@ ul, li {
 .slider-category_row_col .detail .date .date-info li:nth-child(2) {
   font-weight: 300;
   font-size: 16px;
+}
+
+.slider-category_row_col .detail .date::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 48px;
+  height: 48px;
+  border: 1px solid white;
 }
 
 .slider-category_row_col .detail .info {
@@ -916,6 +724,9 @@ ul, li {
 }
 
 .footer-content-row-col-3-list .list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 15px;
   font-family: "Montserrat";
   line-height: 2.2;
@@ -1127,33 +938,31 @@ ul, li {
   .banner-ads-02-content-top {
     margin-top: 30px;
   }
-  .banner-ads-02-content-top .text1-ad02 {
-    font-size: 12px;
-    left: 80px;
-    top: 115px;
+  .banner-ads-02-content-top .descript {
+    top: 50%;
+    left: 10%;
   }
-  .banner-ads-02-content-top .text2-ad02 {
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 12px;
+  }
+  .banner-ads-02-content-top .descript .text2-ad02 {
     font-size: 16px;
-    left: 80px;
-    top: 130px;
   }
   .banner-ads-02-content-bottom {
     margin-left: 30px;
     margin-top: 0;
   }
-  .banner-ads-02-content-bottom .text1-ad03 {
+  .banner-ads-02-content-bottom .descript {
+    top: 50%;
+    left: 53%;
+  }
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
     font-size: 12px;
-    left: 460px;
-    top: 115px;
   }
-  .banner-ads-02-content-bottom .text2-ad03 {
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
     font-size: 16px;
-    left: 460px;
-    top: 130px;
   }
-  .banner-ads-02-content-bottom .btn-ad03 {
-    left: 460px;
-    top: 150px;
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
     padding: 10px 11px 10px 11px;
     font-size: 10px;
   }
@@ -1220,11 +1029,22 @@ ul, li {
     display: block;
   }
   .banner-ads-01 {
-    margin-right: 84px;
+    margin-left: 0;
+  }
+  .banner-ads-01 .descript {
+    bottom: 27%;
+    right: 20%;
   }
   .banner-ads-02 {
-    margin-top: 30px;
-    margin-left: 62px;
+    padding-left: 0;
+  }
+  .banner-ads-02-content-top .descript {
+    top: 55%;
+    left: 5%;
+  }
+  .banner-ads-02-content-bottom .descript {
+    top: 55%;
+    left: 50%;
   }
   .product-row-content {
     margin-left: 70px;
@@ -1233,8 +1053,8 @@ ul, li {
     width: calc((100% + 100px) / 4);
   }
   .product-row-content-detail .btn-row {
-    left: 9px;
-    top: 70%;
+    left: 5px;
+    bottom: 5px;
   }
   .slider-category_row {
     /* the parent */
@@ -1249,26 +1069,8 @@ ul, li {
     padding-right: 140px;
     width: 100%;
   }
-  .footer-content-row-col-1-title {
-    font-size: 10px;
-  }
-  .footer-content-row-col-1-descript {
-    font-size: 10px;
-  }
-  .footer-content-row-col-3-title {
-    font-size: 10px;
-  }
-  .footer-content-row-col-3-list ul .list-items {
-    font-size: 10px;
-  }
   .footer-content-row-colmid {
     padding-right: 0;
-  }
-  .footer-content-row-colmid-2-title {
-    font-size: 12px;
-  }
-  .footer-content-row-colmid-2-list .list-items {
-    font-size: 10px;
   }
 }
 
@@ -1279,54 +1081,27 @@ ul, li {
   .banner-ads {
     display: block;
   }
-  .banner-ads-01 {
-    float: left;
-  }
   .banner-ads-01 img {
     width: 100%;
   }
-  .banner-ads-01 .text-ad01 {
-    top: 58.5%;
-    left: 270px;
-    font-size: 25px;
-  }
-  .banner-ads-01 .btn-ad01 {
-    top: 65.5%;
-    left: 447px;
-    font-size: 12px;
+  .banner-ads-01 .descript {
+    right: 5%;
   }
   .banner-ads-02 {
-    margin-top: 30px;
-    margin-left: 27px;
-    margin-right: 85px;
+    margin-left: 0;
   }
   .banner-ads-02-content-top img {
-    width: 320px;
+    width: 100%;
     height: 170px;
-  }
-  .banner-ads-02-content-top .text1-ad02 {
-    top: 54.5%;
-    left: 65px;
-  }
-  .banner-ads-02-content-top .text2-ad02 {
-    top: 63.5%;
-    left: 65px;
   }
   .banner-ads-02-content-bottom img {
-    width: 305px;
+    width: 100%;
     height: 170px;
   }
-  .banner-ads-02-content-bottom .text1-ad03 {
-    top: 54.5%;
-    left: 400px;
+  .banner-ads-02-content-bottom .descript {
+    left: 55%;
   }
-  .banner-ads-02-content-bottom .text2-ad03 {
-    top: 63.5%;
-    left: 400px;
-  }
-  .banner-ads-02-content-bottom .btn-ad03 {
-    top: 75.5%;
-    left: 400px;
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
     font-size: 8px;
   }
   .product-title .content {
@@ -1341,9 +1116,8 @@ ul, li {
   .product-row-content-detail {
     width: calc((100% + 200px) / 3);
   }
-  .product-row-content-detail .btn-row {
-    left: 9px;
-    top: 61.5%;
+  .slider {
+    height: 908px;
   }
   .slider-category {
     padding-left: 0;
@@ -1361,8 +1135,7 @@ ul, li {
     margin: 0;
   }
   .slider-category_row_col .detail {
-    margin-left: 15%;
-    width: 500px;
+    width: 100%;
   }
   .footer-content-row {
     -webkit-box-orient: vertical;
@@ -1416,51 +1189,13 @@ ul, li {
   .banner {
     width: 100%;
   }
-  .banner-ads-01 {
-    margin: 0 0;
-  }
-  .banner-ads-01 .text-ad01 {
-    top: 58.5%;
-    left: 40%;
-    font-size: 20px;
-  }
-  .banner-ads-01 .btn-ad01 {
-    top: 68.5%;
-    left: 72%;
-    font-size: 12px;
-  }
-  .banner-ads-02 {
-    margin: 0 0;
-    padding-left: 1px;
-  }
   .banner-ads-02-content-top img {
     width: 100%;
-    height: 130px;
-  }
-  .banner-ads-02-content-top .text1-ad02 {
-    top: 56.5%;
-    left: 40px;
-  }
-  .banner-ads-02-content-top .text2-ad02 {
-    top: 66.5%;
-    left: 40px;
-  }
-  .banner-ads-02-content-bottom .text1-ad03 {
-    top: 56.5%;
-    left: 55%;
-  }
-  .banner-ads-02-content-bottom .text2-ad03 {
-    top: 66.5%;
-    left: 55%;
-  }
-  .banner-ads-02-content-bottom .btn-ad03 {
-    top: 78.5%;
-    left: 55%;
-    font-size: 8px;
+    height: 150px;
   }
   .banner-ads-02-content-bottom img {
     width: 100%;
-    height: 130px;
+    height: 150px;
   }
   .product-title .container .content {
     padding-left: 0px;
@@ -1477,19 +1212,21 @@ ul, li {
     padding-top: 6px;
     width: 35px;
   }
+  .product-row .container {
+    padding: 15px 15px;
+  }
   .product-row-content {
     margin-left: 0;
   }
   .product-row-content-detail {
-    width: calc((100% / 2) - 30px);
+    margin: 0;
+    width: 100%;
   }
-  .product-row-content-detail .btn-row {
-    left: 9px;
-    top: 65%;
+  .product-row-content-detail:nth-child(4n) {
+    margin-right: 0;
   }
-  .slider .detail {
-    margin-left: 10%;
-    width: 440px;
+  .slider {
+    height: 808px;
   }
 }
 
@@ -1523,41 +1260,32 @@ ul, li {
   .banner-ads-01 img {
     width: 100%;
   }
-  .banner-ads-01 .text-ad01 {
-    top: 60%;
-    left: 42%;
-    font-size: 20px;
+  .banner-ads-01 .descript .text-ad01 {
+    font-size: 27px;
   }
-  .banner-ads-01 .btn-ad01 {
-    top: 68.5%;
-    left: 72.5%;
+  .banner-ads-01 .descript .btn-ad01 {
+    margin-left: 220px;
     font-size: 9px;
     padding: 8px 10px 8px 10px;
   }
-  .banner-ads-02 {
-    margin: 0;
-    padding-left: 1px;
-  }
   .banner-ads-02-content-top {
-    margin-right: 50px;
+    margin-right: 0;
   }
   .banner-ads-02-content-top img {
-    width: 120%;
-    height: 110px;
+    width: 100%;
   }
   .banner-ads-02-content-top .text1-ad02 {
-    top: 56.5%;
-    left: 6.5%;
     font-size: 7px;
     letter-spacing: 2px;
   }
   .banner-ads-02-content-top .text2-ad02 {
-    top: 64.5%;
-    left: 6.5%;
     font-size: 10px;
   }
   .banner-ads-02-content-bottom {
     margin-left: 30px;
+  }
+  .banner-ads-02-content-bottom img {
+    width: 100%;
   }
   .banner-ads-02-content-bottom .text1-ad03 {
     top: 56.5%;
@@ -1576,10 +1304,6 @@ ul, li {
     font-size: 6px;
     padding: 7px 10px 7px 10px;
   }
-  .banner-ads-02-content-bottom img {
-    width: 100%;
-    height: 110px;
-  }
   .product-title {
     margin-left: 30px;
     text-align: center;
@@ -1596,37 +1320,14 @@ ul, li {
     padding-top: 6px;
     width: 35px;
   }
-  .product-row-content {
-    margin-left: 25%;
+  .product-row .container {
+    padding: 15px 15px;
   }
   .product-row-content-detail {
-    width: 50%;
+    width: 100%;
   }
-  .product-row-content-detail .btn-row {
-    width: 45%;
-    height: 10%;
-    left: 5%;
-    top: 65%;
-    font-size: 7px;
-  }
-  .product-row-content-detail ul .product-text {
-    font-size: 10px;
-  }
-  .product-row-content-detail .rating {
-    font-size: 8px;
-  }
-  .product-row-content-detail .price {
-    font-size: 13px;
-  }
-  .product-row-content-detail .discour {
-    font-size: 13px;
-  }
-  .slider-category_row .slick-slide {
-    margin: 0;
-  }
-  .slider-category_row_col .detail {
-    width: 350px;
-    margin: 0 19%;
+  .slider .container {
+    padding: 15px 15px;
   }
   .footer-content {
     width: 100%;
@@ -1637,12 +1338,6 @@ ul, li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  .footer-copyright-content-rules {
-    font-size: 10px;
-  }
-  .footer-copyright-content-payment {
-    font-size: 15px;
   }
 }
 
@@ -1669,120 +1364,54 @@ ul, li {
   .banner {
     width: 100%;
   }
-  .banner-ads-01 .text-ad01 {
-    font-size: 18px;
+  .banner-ads-01 .descript {
+    bottom: 18%;
   }
-  .banner-ads-01 .btn-ad01 {
-    left: 77.5%;
-    font-size: 7px;
-    padding: 5px 7px 5px 7px;
+  .banner-ads-01 .descript .text-ad01 {
+    font-size: 22px;
+  }
+  .banner-ads-01 .descript .btn-ad01 {
+    margin-left: 140px;
+    font-size: 13px;
+    padding: 10px 12px 10px 12px;
   }
   .banner-ads-02-content-top {
     margin-right: 14px;
   }
-  .banner-ads-02-content-top img {
-    width: 100%;
-    height: 80px;
-  }
   .banner-ads-02-content-top .text1-ad02 {
-    top: 60.5%;
-    left: 6%;
     font-size: 8px;
   }
   .banner-ads-02-content-top .text2-ad02 {
-    top: 67.5%;
-    left: 6%;
     font-size: 11px;
   }
   .banner-ads-02-content-bottom {
     margin-left: 0;
   }
   .banner-ads-02-content-bottom .text1-ad03 {
-    top: 60.5%;
-    left: 54%;
     font-size: 8px;
   }
   .banner-ads-02-content-bottom .text2-ad03 {
-    top: 67.5%;
-    left: 54%;
     font-size: 11px;
   }
   .banner-ads-02-content-bottom .btn-ad03 {
-    top: 78.5%;
-    left: 54%;
     font-size: 7px;
     padding: 5px 7px 5px 7px;
   }
-  .banner-ads-02-content-bottom img {
-    width: 100%;
-    height: 80px;
-  }
   .product-title {
-    padding-left: 5px;
+    padding-left: 0;
+    margin-left: 0;
     text-align: center;
   }
   .product-title .container .content {
     padding-left: 0px;
   }
-  .product-title .container .content .text-title1 {
-    font-size: 7px;
-    letter-spacing: 2px;
-  }
-  .product-title .container .content .text-title2 {
-    font-size: 11px;
-    letter-spacing: 2.5px;
-  }
   .product-title .container .content .line {
     padding-top: 6px;
     width: 27px;
   }
-  .product-row {
-    width: 100%;
-  }
-  .product-row-content {
-    margin-left: 30%;
-  }
-  .product-row-content-detail {
-    width: 50%;
-  }
-  .product-row-content-detail img {
-    width: 190px;
-  }
-  .product-row-content-detail .btn-row {
-    width: 80px;
-    height: 10%;
-    left: 5%;
-    top: 60%;
-    font-size: 7px;
-  }
-  .product-row-content-detail ul .product-text {
-    font-size: 10px;
-  }
-  .product-row-content-detail .rating {
-    font-size: 8px;
-  }
-  .product-row-content-detail .price {
-    font-size: 13px;
-  }
-  .product-row-content-detail .discour {
-    font-size: 13px;
-  }
-  .slider-category_row_col .detail {
-    margin: 0 21%;
-    width: 250px;
-  }
   .footer-content-row-col {
     width: 100%;
     margin-right: 0;
-  }
-  .footer-copyright-content-rules {
-    font-size: 8px;
-  }
-  .footer-copyright-content-rules .icon-1 {
-    font-size: 8px;
-  }
-  .footer-copyright-content-payment {
-    font-size: 13px;
   }
 }
 
@@ -1804,50 +1433,6 @@ ul, li {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  .product-row {
-    width: 100%;
-  }
-  .product-row-content {
-    margin-left: 30%;
-  }
-  .product-row-content-detail {
-    width: 50%;
-  }
-  .product-row-content-detail img {
-    width: 170px;
-  }
-  .product-row-content-detail .btn-row {
-    width: 80px;
-    height: 10%;
-    left: 5%;
-    top: 170px;
-    font-size: 7px;
-  }
-  .product-row-content-detail ul .product-text {
-    font-size: 10px;
-  }
-  .product-row-content-detail .rating {
-    font-size: 8px;
-  }
-  .product-row-content-detail .price {
-    font-size: 13px;
-  }
-  .product-row-content-detail .discour {
-    font-size: 13px;
-  }
-  .slider-category {
-    padding-left: 20%;
-  }
-  .slider-category_row .slick-dots {
-    padding-right: 15%;
-  }
-  .slider-category_row_col {
-    margin-left: 20px;
-  }
-  .slider-category_row_col .detail {
-    margin: 0;
-    width: 250px;
   }
   .footer-content-row-col {
     width: 100%;

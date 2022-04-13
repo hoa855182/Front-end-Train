@@ -85,6 +85,7 @@
                     &-list {
                         padding-top: 3px;
                         .list-items {
+                            display: flex;
                             font-size: 15px;
                             font-family: $font-family-1;
                             line-height: 2.2;
@@ -95,6 +96,7 @@
                             }
                             a{
                                 color: $light-gray;
+                                
                             }
                         }
                         // &-left {
@@ -188,6 +190,7 @@
                         &-right {
                             a {
                                 color: $light-gray;
+                                
                             }
                             &:first-child{
                                 padding-top: 0;
