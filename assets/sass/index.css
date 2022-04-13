@@ -1171,7 +1171,7 @@ ul, li {
     width: calc((100% + 170px) / 4);
   }
   .product-row-content-detail:nth-child(4n) {
-    margin-right: 10px;
+    margin-right: 30px;
   }
   .footer-content-row-col {
     margin-right: 0;
