@@ -927,32 +927,40 @@ ul, li {
   }
   .banner-ads-01 {
     text-align: center;
-    margin-left: 60px;
+  }
+  .banner-ads-01 img {
+    width: 100%;
   }
   .banner-ads-02 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 103px;
+    overflow: hidden;
+    margin-top: 30px;
+    padding-left: 0;
   }
   .banner-ads-02-content-top {
-    margin-top: 30px;
+    width: 50%;
   }
   .banner-ads-02-content-top .descript {
     top: 50%;
-    left: 10%;
+    left: 5%;
+  }
+  .banner-ads-02-content-top img {
+    width: 100%;
   }
   .banner-ads-02-content-bottom {
-    margin-left: 30px;
     margin-top: 0;
+    padding-top: 0;
+  }
+  .banner-ads-02-content-bottom img {
+    width: 50%;
+    position: absolute;
+    height: auto;
   }
   .banner-ads-02-content-bottom .descript {
     top: 50%;
     left: 53%;
-  }
-  .banner-ads-02-content-bottom img {
-    width: 360px;
-    height: 200px;
   }
   .product-title .content {
     padding-left: 75px;
@@ -1006,30 +1014,6 @@ ul, li {
     padding-bottom: 3px;
     padding-left: 15px;
   }
-  .banner {
-    width: 100%;
-  }
-  .banner-ads {
-    display: block;
-  }
-  .banner-ads-01 {
-    margin-left: 0;
-  }
-  .banner-ads-01 .descript {
-    bottom: 27%;
-    right: 20%;
-  }
-  .banner-ads-02 {
-    padding-left: 0;
-  }
-  .banner-ads-02-content-top .descript {
-    top: 55%;
-    left: 5%;
-  }
-  .banner-ads-02-content-bottom .descript {
-    top: 55%;
-    left: 50%;
-  }
   .product-row-content {
     margin-left: 70px;
   }
@@ -1059,32 +1043,6 @@ ul, li {
 }
 
 @media screen and (max-width: 991px) {
-  .banner {
-    width: 100%;
-  }
-  .banner-ads {
-    display: block;
-  }
-  .banner-ads-01 img {
-    width: 100%;
-  }
-  .banner-ads-01 .descript {
-    right: 5%;
-  }
-  .banner-ads-02 {
-    margin-left: 0;
-  }
-  .banner-ads-02-content-top img {
-    width: 100%;
-    height: 210px;
-  }
-  .banner-ads-02-content-bottom img {
-    width: 100%;
-    height: 210px;
-  }
-  .banner-ads-02-content-bottom .descript {
-    left: 55%;
-  }
   .product-title .content {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1167,28 +1125,41 @@ ul, li {
             transform: translateX(78%);
     z-index: 1000;
   }
-  .banner {
+  .banner-ads-01 img {
     width: 100%;
   }
-  .banner-ads-02-content-top img {
-    width: 100%;
-    height: 160px;
+  .banner-ads-01 .descript {
+    right: 4%;
+    bottom: 24%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .banner-ads-01 .descript .text-ad01 {
+    font-size: 25px;
+  }
+  .banner-ads-01 .descript .btn-ad01 {
+    font-size: 13px;
+    margin-right: 0;
+    margin-left: 170px;
+  }
+  .banner-ads-02-content-top .descript {
+    top: 40%;
   }
   .banner-ads-02-content-top .descript .text1-ad02 {
-    font-size: 13px;
+    font-size: 10px;
   }
   .banner-ads-02-content-top .descript .text2-ad02 {
-    font-size: 16px;
-  }
-  .banner-ads-02-content-bottom img {
-    width: 100%;
-    height: 160px;
-  }
-  .banner-ads-02-content-bottom .descript .text1-ad03 {
     font-size: 13px;
   }
+  .banner-ads-02-content-bottom .descript {
+    top: 40%;
+  }
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 10px;
+  }
   .banner-ads-02-content-bottom .descript .text2-ad03 {
-    font-size: 16px;
+    padding-bottom: 0;
+    font-size: 13px;
   }
   .banner-ads-02-content-bottom .descript .btn-ad03 {
     padding: 10px 12px 10px 12px;
@@ -1245,71 +1216,22 @@ ul, li {
     letter-spacing: 10px;
     padding: 0 0 7px 5px;
   }
-  .banner {
-    width: 100%;
-  }
   .banner .container {
     padding: 15px 15px;
-  }
-  .banner-ads-01 {
-    margin: 0 0;
   }
   .banner-ads-01 img {
     width: 100%;
   }
+  .banner-ads-01 .descript {
+    right: 5%;
+    bottom: 26%;
+  }
   .banner-ads-01 .descript .text-ad01 {
-    font-size: 27px;
+    font-size: 20px;
   }
   .banner-ads-01 .descript .btn-ad01 {
-    margin-left: 220px;
-    font-size: 9px;
-    padding: 8px 10px 8px 10px;
-  }
-  .banner-ads-02 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .banner-ads-02-content-top {
-    margin-right: 0;
-  }
-  .banner-ads-02-content-top img {
-    height: auto;
-  }
-  .banner-ads-02-content-top .descript {
-    left: 10%;
-    top: 20%;
-  }
-  .banner-ads-02-content-top .descript .text1-ad02 {
-    font-size: 18px;
-  }
-  .banner-ads-02-content-top .descript .text2-ad02 {
-    font-size: 20px;
-  }
-  .banner-ads-02-content-bottom {
-    margin-left: 0;
-    padding-left: 0;
-  }
-  .banner-ads-02-content-bottom img {
-    height: auto;
-  }
-  .banner-ads-02-content-bottom .descript {
-    left: 10%;
-    top: 65%;
-  }
-  .banner-ads-02-content-bottom .descript .text1-ad03 {
-    font-size: 18px;
-  }
-  .banner-ads-02-content-bottom .descript .text2-ad03 {
-    font-size: 20px;
-  }
-  .banner-ads-02-content-bottom .descript .btn-ad03 {
-    padding: 12px 13px 10px 13px;
-    font-size: 16px;
+    font-size: 10px;
+    margin-left: 140px;
   }
   .product-title {
     margin-left: 30px;
@@ -1369,34 +1291,15 @@ ul, li {
     line-height: 0.733;
   }
   .banner-ads-01 .descript {
-    bottom: 18%;
+    right: 5%;
+    bottom: 20%;
   }
   .banner-ads-01 .descript .text-ad01 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .banner-ads-01 .descript .btn-ad01 {
-    margin-left: 140px;
-    font-size: 13px;
-    padding: 10px 12px 10px 12px;
-  }
-  .banner-ads-02-content-top .descript .text1-ad02 {
-    font-size: 13px;
-  }
-  .banner-ads-02-content-top .descript .text2-ad02 {
-    font-size: 16px;
-  }
-  .banner-ads-02-content-bottom {
-    margin-left: 0;
-  }
-  .banner-ads-02-content-bottom .descript .text1-ad03 {
-    font-size: 13px;
-  }
-  .banner-ads-02-content-bottom .descript .text2-ad03 {
-    font-size: 16px;
-  }
-  .banner-ads-02-content-bottom .descript .btn-ad03 {
-    font-size: 13px;
-    padding: 5px 7px 5px 7px;
+    font-size: 8px;
+    margin-left: 120px;
   }
   .product-title {
     padding-left: 0;
@@ -1430,10 +1333,20 @@ ul, li {
     font-size: 13px;
     padding-top: 2px;
   }
-  .banner {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 8px;
+  }
+  .banner-ads-02-content-top .descript .text2-ad02 {
+    font-size: 10px;
+  }
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 8px;
+  }
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
+    font-size: 10px;
+  }
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
+    font-size: 8px;
   }
   .footer-content-row-col {
     width: 100%;
