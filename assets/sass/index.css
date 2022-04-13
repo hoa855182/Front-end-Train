@@ -942,12 +942,6 @@ ul, li {
     top: 50%;
     left: 10%;
   }
-  .banner-ads-02-content-top .descript .text1-ad02 {
-    font-size: 12px;
-  }
-  .banner-ads-02-content-top .descript .text2-ad02 {
-    font-size: 16px;
-  }
   .banner-ads-02-content-bottom {
     margin-left: 30px;
     margin-top: 0;
@@ -955,16 +949,6 @@ ul, li {
   .banner-ads-02-content-bottom .descript {
     top: 50%;
     left: 53%;
-  }
-  .banner-ads-02-content-bottom .descript .text1-ad03 {
-    font-size: 12px;
-  }
-  .banner-ads-02-content-bottom .descript .text2-ad03 {
-    font-size: 16px;
-  }
-  .banner-ads-02-content-bottom .descript .btn-ad03 {
-    padding: 10px 11px 10px 11px;
-    font-size: 10px;
   }
   .banner-ads-02-content-bottom img {
     width: 360px;
@@ -1092,17 +1076,14 @@ ul, li {
   }
   .banner-ads-02-content-top img {
     width: 100%;
-    height: 170px;
+    height: 210px;
   }
   .banner-ads-02-content-bottom img {
     width: 100%;
-    height: 170px;
+    height: 210px;
   }
   .banner-ads-02-content-bottom .descript {
     left: 55%;
-  }
-  .banner-ads-02-content-bottom .descript .btn-ad03 {
-    font-size: 8px;
   }
   .product-title .content {
     -webkit-box-align: center;
@@ -1191,11 +1172,27 @@ ul, li {
   }
   .banner-ads-02-content-top img {
     width: 100%;
-    height: 150px;
+    height: 160px;
+  }
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 13px;
+  }
+  .banner-ads-02-content-top .descript .text2-ad02 {
+    font-size: 16px;
   }
   .banner-ads-02-content-bottom img {
     width: 100%;
-    height: 150px;
+    height: 160px;
+  }
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 13px;
+  }
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
+    font-size: 16px;
+  }
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
+    padding: 10px 12px 10px 12px;
+    font-size: 10px;
   }
   .product-title .container .content {
     padding-left: 0px;
@@ -1268,41 +1265,51 @@ ul, li {
     font-size: 9px;
     padding: 8px 10px 8px 10px;
   }
+  .banner-ads-02 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .banner-ads-02-content-top {
     margin-right: 0;
   }
   .banner-ads-02-content-top img {
-    width: 100%;
+    height: auto;
   }
-  .banner-ads-02-content-top .text1-ad02 {
-    font-size: 7px;
-    letter-spacing: 2px;
+  .banner-ads-02-content-top .descript {
+    left: 10%;
+    top: 20%;
   }
-  .banner-ads-02-content-top .text2-ad02 {
-    font-size: 10px;
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 18px;
+  }
+  .banner-ads-02-content-top .descript .text2-ad02 {
+    font-size: 20px;
   }
   .banner-ads-02-content-bottom {
-    margin-left: 30px;
+    margin-left: 0;
+    padding-left: 0;
   }
   .banner-ads-02-content-bottom img {
-    width: 100%;
+    height: auto;
   }
-  .banner-ads-02-content-bottom .text1-ad03 {
-    top: 56.5%;
-    left: 60%;
-    font-size: 7px;
-    letter-spacing: 2px;
+  .banner-ads-02-content-bottom .descript {
+    left: 10%;
+    top: 65%;
   }
-  .banner-ads-02-content-bottom .text2-ad03 {
-    top: 64.5%;
-    left: 60%;
-    font-size: 10px;
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 18px;
   }
-  .banner-ads-02-content-bottom .btn-ad03 {
-    top: 73.5%;
-    left: 60%;
-    font-size: 6px;
-    padding: 7px 10px 7px 10px;
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
+    font-size: 20px;
+  }
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
+    padding: 12px 13px 10px 13px;
+    font-size: 16px;
   }
   .product-title {
     margin-left: 30px;
@@ -1361,9 +1368,6 @@ ul, li {
     font-size: 26px;
     line-height: 0.733;
   }
-  .banner {
-    width: 100%;
-  }
   .banner-ads-01 .descript {
     bottom: 18%;
   }
@@ -1375,26 +1379,23 @@ ul, li {
     font-size: 13px;
     padding: 10px 12px 10px 12px;
   }
-  .banner-ads-02-content-top {
-    margin-right: 14px;
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 13px;
   }
-  .banner-ads-02-content-top .text1-ad02 {
-    font-size: 8px;
-  }
-  .banner-ads-02-content-top .text2-ad02 {
-    font-size: 11px;
+  .banner-ads-02-content-top .descript .text2-ad02 {
+    font-size: 16px;
   }
   .banner-ads-02-content-bottom {
     margin-left: 0;
   }
-  .banner-ads-02-content-bottom .text1-ad03 {
-    font-size: 8px;
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 13px;
   }
-  .banner-ads-02-content-bottom .text2-ad03 {
-    font-size: 11px;
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
+    font-size: 16px;
   }
-  .banner-ads-02-content-bottom .btn-ad03 {
-    font-size: 7px;
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
+    font-size: 13px;
     padding: 5px 7px 5px 7px;
   }
   .product-title {
