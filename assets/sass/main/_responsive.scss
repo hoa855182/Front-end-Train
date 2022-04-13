@@ -456,17 +456,23 @@
 
             &_row {
                 .slick-dots {
-                    padding-right: 34%;
+                    padding-right: 0;
+                }
+                .slick-slide {
+                    margin: 0;
                 }
                 
-                &_row {
-                    .slick-slide {
-                        margin: 0 10px;
-                    }
-        
-                    /* the parent */
-                    .slick-list {
-                        margin: 0 -10px;
+                /* the parent */
+                .slick-list {
+                    margin: 0;
+                }
+               
+                
+                &_col {
+                    
+                    .detail {
+                        margin-left:15%;
+                        width: 500px;
                     }
                 }
             }
@@ -636,6 +642,13 @@
                     }
                 }
             }
+        }
+    }
+
+    .slider {
+        .detail {
+            margin-left: 10%;
+            width: 440px;
         }
     }
 }
@@ -826,19 +839,11 @@
                 .slick-slide {
                     margin: 0;
                 }
-                
-                /* the parent */
-                .slick-list {
-                    margin: 0;
-                }
-                .slick-dots {
-                    padding-right: 0;
-                }
 
                 &_col {
                     .detail {
                         width: 350px;
-                        margin: 15% 10%;
+                        margin: 0 19%;
 
                     //     img {
                     //         width: 60%;
