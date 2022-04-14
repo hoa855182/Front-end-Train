@@ -528,7 +528,7 @@ ul, li {
 
 .slider-category_row .slick-dots li button:before {
   font-size: 40px;
-  color: #888888;
+  color: #cda8cd;
   opacity: 1;
 }
 
@@ -928,22 +928,19 @@ ul, li {
   .banner-ads {
     display: block;
   }
-  .banner-ads-01 {
-    text-align: center;
-  }
   .banner-ads-01 img {
     width: 100%;
+    height: auto;
   }
   .banner-ads-02 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
     margin-top: 30px;
     padding-left: 0;
   }
   .banner-ads-02-content-top {
-    width: 50%;
+    width: 48%;
   }
   .banner-ads-02-content-top .descript {
     top: 50%;
@@ -955,6 +952,7 @@ ul, li {
   .banner-ads-02-content-bottom {
     margin-top: 0;
     padding-top: 0;
+    margin-left: 50px;
   }
   .banner-ads-02-content-bottom img {
     width: 50%;
@@ -963,7 +961,7 @@ ul, li {
   }
   .banner-ads-02-content-bottom .descript {
     top: 50%;
-    left: 53%;
+    left: 60%;
   }
   .product-title .content {
     padding-left: 75px;
@@ -1027,6 +1025,10 @@ ul, li {
     left: 5px;
     bottom: 5px;
   }
+  .slider-category .container {
+    max-width: 100%;
+    padding: 15px 15px;
+  }
   .slider-category_row {
     /* the parent */
   }
@@ -1037,7 +1039,6 @@ ul, li {
     margin: 0 -13px;
   }
   .footer-content-row {
-    padding-right: 140px;
     width: 100%;
   }
   .footer-content-row-colmid {
@@ -1046,6 +1047,30 @@ ul, li {
 }
 
 @media screen and (max-width: 991px) {
+  .banner .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 15px;
+  }
+  .banner-ads {
+    display: block;
+  }
+  .banner-ads-02-content-top {
+    width: 47%;
+  }
+  .banner-ads-02-content-top .descript {
+    top: 45%;
+    left: 5%;
+  }
+  .banner-ads-02-content-bottom {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 35px;
+  }
+  .banner-ads-02-content-bottom .descript {
+    top: 47%;
+    left: 53%;
+  }
   .product-title .content {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1128,22 +1153,11 @@ ul, li {
             transform: translateX(78%);
     z-index: 1000;
   }
-  .banner-ads-01 img {
-    width: 100%;
-  }
   .banner-ads-01 .descript {
     right: 4%;
     bottom: 24%;
     margin-right: 0;
     margin-left: 0;
-  }
-  .banner-ads-01 .descript .text-ad01 {
-    font-size: 25px;
-  }
-  .banner-ads-01 .descript .btn-ad01 {
-    font-size: 13px;
-    margin-right: 0;
-    margin-left: 170px;
   }
   .banner-ads-02-content-top .descript {
     top: 40%;
@@ -1156,6 +1170,7 @@ ul, li {
   }
   .banner-ads-02-content-bottom .descript {
     top: 40%;
+    left: 56%;
   }
   .banner-ads-02-content-bottom .descript .text1-ad03 {
     font-size: 10px;
@@ -1185,6 +1200,7 @@ ul, li {
   }
   .product-row .container {
     padding: 15px 15px;
+    max-width: 100%;
   }
   .product-row-content {
     margin-left: 0;
@@ -1195,9 +1211,6 @@ ul, li {
   }
   .product-row-content-detail:nth-child(4n) {
     margin-right: 0;
-  }
-  .slider {
-    height: 808px;
   }
 }
 
@@ -1222,19 +1235,22 @@ ul, li {
   .banner .container {
     padding: 15px 15px;
   }
-  .banner-ads-01 img {
-    width: 100%;
-  }
   .banner-ads-01 .descript {
     right: 5%;
     bottom: 26%;
   }
   .banner-ads-01 .descript .text-ad01 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .banner-ads-01 .descript .btn-ad01 {
-    font-size: 10px;
-    margin-left: 140px;
+    font-size: 15px;
+    margin-left: 160px;
+  }
+  .banner-ads-02-content-top .descript {
+    left: 7%;
+  }
+  .banner-ads-02-content-bottom .descript {
+    left: 58%;
   }
   .product-title {
     margin-left: 30px;
@@ -1252,11 +1268,11 @@ ul, li {
     padding-top: 6px;
     width: 35px;
   }
-  .product-row .container {
-    padding: 15px 15px;
-  }
   .product-row-content-detail {
     width: 100%;
+  }
+  .slider {
+    height: 808px;
   }
   .slider .container {
     padding: 15px 15px;
@@ -1304,6 +1320,29 @@ ul, li {
     font-size: 8px;
     margin-left: 120px;
   }
+  .banner-ads-02-content-top .descript {
+    top: 40%;
+  }
+  .banner-ads-02-content-top .descript .text1-ad02 {
+    font-size: 10px;
+  }
+  .banner-ads-02-content-top .descript .text2-ad02 {
+    font-size: 13px;
+  }
+  .banner-ads-02-content-bottom .descript {
+    top: 40%;
+    left: 60%;
+  }
+  .banner-ads-02-content-bottom .descript .text1-ad03 {
+    font-size: 10px;
+  }
+  .banner-ads-02-content-bottom .descript .text2-ad03 {
+    font-size: 13px;
+  }
+  .banner-ads-02-content-bottom .descript .btn-ad03 {
+    padding: 8px 10px 8px 10px;
+    font-size: 10px;
+  }
   .product-title {
     padding-left: 0;
     margin-left: 0;
@@ -1350,6 +1389,9 @@ ul, li {
   }
   .banner-ads-02-content-bottom .descript .btn-ad03 {
     font-size: 8px;
+  }
+  .slider {
+    height: 708px;
   }
   .footer-content-row-col {
     width: 100%;
