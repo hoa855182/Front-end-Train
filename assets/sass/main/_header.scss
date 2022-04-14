@@ -4,7 +4,7 @@ $dark-gray: rgb(82, 82, 82);
 $light-violet: rgb(130, 98, 181);
 $black: rgb(0, 0, 0);
 $light-gray: rgb(136, 136, 136);
-$dark-white: rgb(211,211,211);
+$dark-white: rgb(211, 211, 211);
 $light-dark:rgb(66, 66, 66);
 $white:rgb(255, 255, 255);
 
@@ -58,14 +58,16 @@ $font-family-3:'Pacifico';
 $text-tran-1: uppercase;
 
 * {
-    padding: 0; 
+    padding: 0;
     margin: 0;
     border: none;
-    
+
 }
-ul,li {
+
+ul,
+li {
     list-style: none;
-    
+
 }
 
 .cover {
@@ -75,20 +77,23 @@ ul,li {
     opacity: 0;
     z-index: -1;
 }
+
 .cover.active {
     opacity: 0.9;
     z-index: 100;
-    transition:all .5s;
+    transition: all .5s;
 }
 
 .header-top {
     width: 100%;
-    background-color:$black;
-    & ul,li{
+    background-color: $black;
+
+    & ul,
+    li {
         display: inline;
     }
-    
-    &-menu{
+
+    &-menu {
         display: flex;
         justify-content: space-between;
         color: $dark-gray;
@@ -100,37 +105,42 @@ ul,li {
         .topmenu_right {
             font-size: 14px;
             padding-right: 13px;
+
             a {
-                color: $light-gray;
+                color: $dark-gray;
             }
         }
 
     }
+
     .fa-solid {
         padding-left: 20px;
-    
+
     }
 
 }
 
 .header-category {
-    
+
     height: 77px;
-    border-bottom: 1px solid rgb(211,211,211);
-    &_menu{
+    border-bottom: 1px solid rgb(211, 211, 211);
+
+    &_menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         &_menulogo {
             height: 40px;
             width: 200px;
             padding: 10px 0 0 14px;
-            
+
             border: solid 2px $black;
             margin-top: 20px;
             margin-left: 17px;
+
             &_content {
-                
+
                 font-family: $font-family-1;
                 line-height: 0.75;
                 font-weight: bold;
@@ -139,46 +149,55 @@ ul,li {
                 line-height: 0.75;
                 text-transform: $text-tran-1;
                 letter-spacing: 15px;
-            
+
             }
         }
     }
-    &_menubar{
+
+    &_menubar {
         display: flex;
         margin-left: -103px;
+
         .list-items {
-            &:first-child{
-                a{
+            &:first-child {
+                a {
                     color: $light-violet;
                 }
+
                 padding-left: 0;
             }
+
             a {
                 color: $black;
             }
+
             padding: 31px 0 0 55px;
             font-size: 14px;
             font-family: $font-family-1;
             font-weight: bold;
             text-transform: $text-tran-1;
             line-height: 1.2;
-        
+
         }
     }
+
     &_cart {
         display: flex;
         padding-top: 20px;
+
         .cart {
             a {
                 color: $black;
             }
+
             padding-right: 15px;
             padding-left: 14px;
             font-size: 29px;
             line-height: 0.733;
         }
     }
-    .nav-bar{
+
+    .nav-bar {
         display: none;
         cursor: pointer;
     }

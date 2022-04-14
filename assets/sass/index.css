@@ -42,7 +42,8 @@
   border: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -66,7 +67,8 @@ ul, li {
   background-color: black;
 }
 
-.header-top ul, .header-top li {
+.header-top ul,
+.header-top li {
   display: inline;
 }
 
@@ -90,7 +92,7 @@ ul, li {
 }
 
 .header-top-menu .topmenu_right a {
-  color: #888888;
+  color: #525252;
 }
 
 .header-top .fa-solid {
