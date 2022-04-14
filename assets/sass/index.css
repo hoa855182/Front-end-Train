@@ -934,6 +934,9 @@ li {
     width: 100%;
     height: auto;
   }
+  .banner-ads-01 .descript {
+    bottom: 30%;
+  }
   .banner-ads-02 {
     display: -webkit-box;
     display: -ms-flexbox;
