@@ -326,7 +326,7 @@
     }
 
     .slider {
-        height: 908px;
+        height: 958px;
 
         &-category {
             padding-left: 0;
@@ -510,9 +510,16 @@
                     &:nth-child(4n) {
                         margin-right: 0;
                     }
+                    ul {
+                        text-align: center;
+                        padding-bottom: 30px;
+                    }
                 }
             }
         }
+    }
+    .slider {
+        height: 858px;
     }
 }
 
@@ -633,12 +640,13 @@
     }
 
     .footer {
-
+        .container {
+            padding: 15px 15px;
+        }
         &-content {
             width: 100%;
 
             &-row {
-                padding-left: 30px;
                 flex-direction: column;
 
             }
@@ -830,9 +838,5 @@
         height: 708px;
     }
 
-    .footer {
-        &-content-row-col {
-            width: 100%;
-        }
-    }
+    
 }
